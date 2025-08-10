@@ -21,3 +21,22 @@ python manage.py migrate
 python manage.py seed_demo
 ```
 
+Run server
+
+```
+python manage.py runserver
+```
+
+Server available at http://localhost:8000/
+
+Docs available at
+
+```
+http://localhost:8000//api/schema/swagger/
+```
+
+or
+
+```
+http://localhost:8000/api/schema/redoc/
+```
